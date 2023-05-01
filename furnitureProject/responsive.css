@@ -1,0 +1,81 @@
+@media screen and (max-width: 1110px) {
+    .title {
+        flex-direction: column;
+    }
+
+    .title-texts {
+        margin: 5px 0 0 5px;
+    }
+
+    select {
+
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-style: 'Light';
+        color: black;
+        font-size: 20px;
+    }
+
+    .main {
+        padding: 5px;
+
+    }
+
+    .icon-dropdown {
+        display: flex;
+    }
+
+    .icon-container {
+        display: none;
+    }
+
+    .outdoor-container {
+        display: none;
+
+    }
+
+    .outdoor-only-header {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .outdoor-only-subtext {
+        margin-bottom: 10px;
+    }
+
+    .couch{
+        margin-bottom: 10px;
+    }
+
+    .outdoor-container-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop-outdoor-button a {
+        width: 100%;
+    }
+
+    .text-and-form {
+        width: 100%;
+    }
+
+    .vip-container .couch {
+        display: none
+    }
+
+    #form-btn {
+        width: 100%;
+    }
+
+    .three-images {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .three-images div {
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+}
